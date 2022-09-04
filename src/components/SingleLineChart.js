@@ -1,7 +1,7 @@
 import React from 'react';
 import { Line } from '@ant-design/charts';
 
-const Charts: React.FC = () => {
+const SingleLineChart: React.FC = () => {
     const data = [
         { year: '1991', value: 3 },
         { year: '1992', value: 4 },
@@ -26,4 +26,4 @@ const Charts: React.FC = () => {
     };
     return <Line {...config} />;
 };
-export default Charts;
+export default SingleLineChart;
